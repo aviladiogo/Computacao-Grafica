@@ -23,7 +23,7 @@ elif (M > 1):
         Dx = X2-X1
         Dy = 1 
         M = Dy / Dx 
-        print(  str(round (X, 2))+ ", " +str(cont2))
+        print(str(round (X, 2))+ ", " +str(cont2))
 
         X = X + 1/M
         cont2+=1

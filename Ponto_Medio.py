@@ -11,7 +11,7 @@ while Pos1 < X2:
     M = Dy / Dx 
     B = (Y2 - (M * X2)) 
     
-    Condição = Dx*Pos1 + -Dy*Pos2 + Dy * B 
+    Condição = (Dx*Pos1) + (-Dy*Pos2) + (Dy * B)
     
     if(Condição > 0):
         print("NE" )
