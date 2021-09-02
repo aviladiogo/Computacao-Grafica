@@ -21,16 +21,16 @@ while Pos1 < X2:
     
         Pos1 += 1
         Pos2 +=1
-    elif(Condição < 0):
         
+    elif(Condição < 0):   
         Pos1 += 1
 
     else:
         
         Pos1 += 1
         Pos2 +=1
-        x.append(Pos1)
-        y.append(Pos2)
+    x.append(Pos1)
+    y.append(Pos2)
     print(str(Pos1) + ", " + str(Pos2))
 plt.xlabel("X")
 plt.ylabel("Y")
