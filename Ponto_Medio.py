@@ -33,7 +33,8 @@ while Pos1 < X2:
         y.append(Pos2)
     print(str(Pos1) + ", " + str(Pos2))
 plt.xlabel("X")
-plt.ylabel("Y2")
+plt.ylabel("Y")
 
+plt.grid(True)
 plt.plot(x,y)
 plt.show()
